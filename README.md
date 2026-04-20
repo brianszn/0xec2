@@ -2,7 +2,7 @@
   <code>0xec2</code>
 </p>
 
-<h3 align="center">🔬 Projeto educacional de Command & Control em Python</h3>
+<h3 align="center">Projeto educacional de Command & Control em Python</h3>
 
 <p align="center">
   <img src="https://img.shields.io/badge/python-3.x-blue?style=flat-square&logo=python&logoColor=white" />
@@ -12,7 +12,7 @@
 
 ---
 
-## ⚠️ Aviso Legal (Disclaimer)
+## Aviso Legal (Disclaimer)
 
 > **Este projeto existe exclusivamente para fins de estudo e aprendizado.**
 >
@@ -22,21 +22,21 @@
 
 ---
 
-## 📖 Sobre o Projeto
+## Sobre o Projeto
 
 O **0xec2** é um estudo prático de redes e comunicação entre máquinas utilizando Python puro. Nasceu da curiosidade de entender, na prática, como funciona a arquitetura de um Command & Control — não para atacar, mas para **compreender o que acontece por baixo dos panos** em termos de:
 
-- 🔌 **Conexões TCP/IP** — Como um servidor escuta e aceita conexões de clientes
-- 🧵 **Programação concorrente** — Uso de `threading` para gerenciar múltiplas conexões simultâneas
-- 📡 **Módulo `socket`** — Criação de sockets, bind, listen, accept, send e receive
-- 🏗️ **Arquitetura cliente-servidor** — Separação de responsabilidades entre listener, sessão e controle
-- 📦 **Serialização de dados** — Encoding/decoding de bytes para comunicação entre processos
+- **Conexões TCP/IP** — Como um servidor escuta e aceita conexões de clientes
+- **Programação concorrente** — Uso de `threading` para gerenciar múltiplas conexões simultâneas
+- **Módulo `socket`** — Criação de sockets, bind, listen, accept, send e receive
+- **Arquitetura cliente-servidor** — Separação de responsabilidades entre listener, sessão e controle
+- **Serialização de dados** — Encoding/decoding de bytes para comunicação entre processos
 
-O projeto vai evoluindo conforme eu estudo. Cada iteração reflete um novo conceito aprendido e aplicado.
+O projeto vai evoluindo conforme eu estudo. Cada iteração reflete um novo conceito aprendido e aplicado. Conforme vou estudando, vou verificando o que é interessante de se ter em um C2 e implementando por aqui.
 
 ---
 
-## 🧩 Estrutura do Projeto
+## Estrutura do Projeto
 
 ```
 0xec2/
@@ -62,8 +62,8 @@ Versão evoluída que introduz o conceito de **múltiplas sessões simultâneas*
 - Gerencia várias conexões ativas através de um dicionário de sessões
 - Cada conexão recebe um ID incremental
 - Menu interativo no terminal para:
-  - 📋 Listar sessões ativas (`list sessions`)
-  - 🎯 Selecionar e interagir com uma sessão específica (`choice session`)
+  - Listar sessões ativas (`list sessions`)
+  - Selecionar e interagir com uma sessão específica (`choice session`)
 - Métodos `send_data` e `receive_data` como `@staticmethod` para reutilização
 
 > **Conceitos estudados:** gerenciamento de estado, design patterns (separação listener/session), uso de `@staticmethod`, threading com múltiplos clientes, menus CLI.
@@ -80,23 +80,9 @@ Classe que encapsula uma conexão individual:
 
 ---
 
-## 🗺️ Roadmap de Estudo
+## Como Executar (Ambiente de Lab)
 
-Conforme eu for estudando, pretendo evoluir o projeto com:
-
-- [ ] 🔐 Criptografia na comunicação (AES/RSA)
-- [ ] 🌐 Comunicação via HTTP/HTTPS ao invés de socket raw
-- [ ] 📁 Transferência de arquivos entre servidor e cliente
-- [ ] 💻 Criação do agente (client-side)
-- [ ] 🧪 Testes em ambiente controlado (lab com VMs)
-- [ ] 📝 Logging estruturado das sessões
-- [ ] 🔄 Reconexão automática do agente
-
----
-
-## 🛠️ Como Executar (Ambiente de Lab)
-
-> ⚠️ Execute **apenas** em ambientes controlados e de sua propriedade (ex: VMs locais, redes isoladas).
+> Execute **apenas** em ambientes controlados e de sua propriedade (ex: VMs locais, redes isoladas).
 
 ```bash
 # Servidor (Listener com multi-session)
@@ -110,7 +96,7 @@ O listener vai iniciar escutando no endereço e porta configurados (padrão: `19
 
 ---
 
-## 🧠 O que eu aprendi até agora
+## O que eu aprendi até agora
 
 | Conceito | Onde apliquei |
 |---|---|
@@ -125,7 +111,7 @@ O listener vai iniciar escutando no endereço e porta configurados (padrão: `19
 
 ---
 
-## 📚 Referências de Estudo
+## Referências de Estudo
 
 - [Python `socket` — Documentação Oficial](https://docs.python.org/3/library/socket.html)
 - [Python `threading` — Documentação Oficial](https://docs.python.org/3/library/threading.html)
@@ -135,5 +121,5 @@ O listener vai iniciar escutando no endereço e porta configurados (padrão: `19
 ---
 
 <p align="center">
-  <sub>Feito com curiosidade 🧠 e Python 🐍</sub>
+  <sub>Feito com curiosidade e Python</sub>
 </p>
