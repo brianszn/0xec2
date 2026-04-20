@@ -43,6 +43,7 @@ O projeto vai evoluindo conforme eu estudo. Cada iteração reflete um novo conc
 ├── 1to1.py        # Versão inicial — listener simples (1 conexão por vez)
 ├── Listener.py    # Versão evoluída — multi-session com menu interativo
 ├── Session.py     # Classe de sessão — gerencia conexões individuais
+├── cyback.py      # Backdoor simples para testes com o C2
 └── README.md
 ```
 
@@ -77,6 +78,16 @@ Classe que encapsula uma conexão individual:
 - `close_connection()` — Encerra a conexão de forma limpa
 
 > **Conceitos estudados:** OOP (encapsulamento), gerenciamento de ciclo de vida de conexões, tratamento de exceções em rede, imports circulares (`from Listener import Listener`).
+
+### `cyback.py` — Backdoor de Teste
+
+Backdoor simples em Python criada para testar a comunicação com o C2. Conecta-se ao listener e aguarda comandos:
+- Estabelece conexão TCP com o servidor via `socket`
+- Executa comandos recebidos usando `subprocess` e retorna o output
+- Suporta navegação de diretórios (`cd`)
+- Reconexão automática caso a conexão caia
+
+> **Conceitos estudados:** reverse shell básica, `subprocess.Popen`, comunicação bidirecional via socket, loop de reconexão com `time.sleep`.
 
 ---
 
