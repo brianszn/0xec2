@@ -12,7 +12,7 @@
 
 ---
 
-## Aviso Legal (Disclaimer)
+## ⚠️ Aviso Legal (Disclaimer)
 
 > **Este projeto existe exclusivamente para fins de estudo e aprendizado.**
 >
@@ -22,7 +22,7 @@
 
 ---
 
-## Sobre o Projeto
+## 📖 Sobre o Projeto
 
 O **0xec2** é um estudo prático de redes e comunicação entre máquinas utilizando Python puro. Nasceu da curiosidade de entender, na prática, como funciona a arquitetura de um Command & Control — não para atacar, mas para **compreender o que acontece por baixo dos panos** em termos de:
 
@@ -36,7 +36,7 @@ O projeto vai evoluindo conforme eu estudo. Cada iteração reflete um novo conc
 
 ---
 
-## Estrutura do Projeto
+## 🧩 Estrutura do Projeto
 
 ```
 0xec2/
@@ -80,7 +80,7 @@ Classe que encapsula uma conexão individual:
 
 ---
 
-## Como Executar (Ambiente de Lab)
+## 🛠️ Como Executar (Ambiente de Lab)
 
 > Execute **apenas** em ambientes controlados e de sua propriedade (ex: VMs locais, redes isoladas).
 
@@ -98,5 +98,5 @@ O listener vai iniciar escutando no endereço e porta configurados (padrão: `19
 
 
 <p align="center">
-  <sub>Feito com curiosidade e Python</sub>
+  <sub>Feito com curiosidade 🧠 e Python 🐍</sub>
 </p>
