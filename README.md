@@ -2,7 +2,7 @@
   <code>0xec2</code>
 </p>
 
-<h3 align="center">🔬 Projeto educacional de Command & Control em Python</h3>
+<h3 align="center">Projeto educacional de Command & Control em Python</h3>
 
 <p align="center">
   <img src="https://img.shields.io/badge/python-3.x-blue?style=flat-square&logo=python&logoColor=white" />
@@ -12,7 +12,7 @@
 
 ---
 
-## ⚠️ Aviso Legal (Disclaimer)
+## Aviso Legal (Disclaimer)
 
 > **Este projeto existe exclusivamente para fins de estudo e aprendizado.**
 >
@@ -22,7 +22,7 @@
 
 ---
 
-## 📖 Sobre o Projeto
+## Sobre o Projeto
 
 O **0xec2** é um estudo prático de redes e comunicação entre máquinas utilizando Python puro. Nasceu da curiosidade de entender, na prática, como funciona a arquitetura de um Command & Control — não para atacar, mas para **compreender o que acontece por baixo dos panos** em termos de:
 
@@ -36,7 +36,7 @@ O projeto vai evoluindo conforme eu estudo. Cada iteração reflete um novo conc
 
 ---
 
-## 🧩 Estrutura do Projeto
+## Estrutura do Projeto
 
 ```
 0xec2/
@@ -80,7 +80,7 @@ Classe que encapsula uma conexão individual:
 
 ---
 
-## 🛠️ Como Executar (Ambiente de Lab)
+## Como Executar (Ambiente de Lab)
 
 > Execute **apenas** em ambientes controlados e de sua propriedade (ex: VMs locais, redes isoladas).
 
@@ -96,20 +96,6 @@ O listener vai iniciar escutando no endereço e porta configurados (padrão: `19
 
 ---
 
-## 🧠 O que eu aprendi até agora
-
-| Conceito | Onde apliquei |
-|---|---|
-| TCP Sockets (`AF_INET`, `SOCK_STREAM`) | `1to1.py`, `Listener.py` |
-| Threading para I/O concorrente | `1to1.py`, `Listener.py`, `Session.py` |
-| Gerenciamento de múltiplas conexões | `Listener.py` |
-| Encapsulamento com classes | `Session.py` |
-| Static methods para reuso | `Listener.py` |
-| Tratamento de erros de rede | Todos os arquivos |
-| Encoding/Decoding (`latin-1`) | `1to1.py`, `Listener.py` |
-| CLI interativa com menus | `Listener.py` |
-
----
 
 <p align="center">
   <sub>Feito com curiosidade e Python</sub>
